@@ -17,3 +17,7 @@ git config --global user.email "you@example.com"
 //local
 git config user.name "Your Name"
 git config user.email "you@example.com"
+
+git push -u origin master
+
+mvn test

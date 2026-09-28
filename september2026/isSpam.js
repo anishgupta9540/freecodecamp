@@ -1,3 +1,5 @@
+// https://www.freecodecamp.org/learn/daily-coding-challenge/09-27
+
 function isSpam(number) {
   const match = number.match(/^\+(\d+) \((\d{3})\) (\d{3})-(\d{4})$/);
 

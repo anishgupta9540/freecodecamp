@@ -1,4 +1,4 @@
-const { isMirror } = require("./isMirror");
+const { isMirror } = require("../isMirror");
 
 describe("isMirror", () => {
   test("returns false for identical strings", () => {

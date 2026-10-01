@@ -1,4 +1,4 @@
-import { getHeadings } from "./getHeadings.js";
+import { getHeadings } from "../getHeadings.js";
 
 describe("getHeadings", () => {
   test("parses simple headings", () => {

@@ -1,4 +1,4 @@
-const isPerfectSquare = require("./isPerfectSquare");
+const isPerfectSquare = require("../isPerfectSquare");
 
 describe("isPerfectSquare", () => {
     test("returns true for a perfect square", () => {

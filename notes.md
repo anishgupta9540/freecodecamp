@@ -21,3 +21,7 @@ git config user.email "you@example.com"
 git push -u origin master
 
 mvn test
+
+Snake case: space_week.py ✅ (recommended)
+PascalCase: SpaceWeek.py
+camelCase: spaceWeek.py

@@ -25,3 +25,23 @@ mvn test
 Snake case: space_week.py ✅ (recommended)
 PascalCase: SpaceWeek.py
 camelCase: spaceWeek.py
+
+Java recommends PascalCase for class names and camelCase for method names.
+
+| Type          | Recommended style | Example          |
+| ------------- | ----------------- | ---------------- |
+| Class name    | PascalCase        | `HexToDecimal`   |
+| Method name   | camelCase         | `hexToDecimal()` |
+| Variable name | camelCase         | `hexValue`       |
+| Constant      | UPPER_SNAKE_CASE  | `MAX_VALUE`      |
+
+For your problem, write:
+
+Java
+public class Main {
+    public static int hexToDecimal(String hex) {
+        return Integer.parseInt(hex, 16);
+    }
+}
+
+
